@@ -1,0 +1,37 @@
+.jumbotron {
+    background-color: turquoise;
+}
+
+body {
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;   
+}
+.col-md-2 {
+    max-width: 7.6%;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.search {
+    border: 1px solid black;
+    padding: 10px;
+    line-height: 2.5;
+    
+}
+
+#title {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    margin: -10px;
+}
+
+#articles {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}

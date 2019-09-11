@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <title>NYT</title>
+</head>
+
+<body>
+    <div class="jumbotron vertical-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <i style="font-size:50px" class="fa">&#xf1ea;</i>
+                    <h1 class="display-4">New York Times Search</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <form class="search">
+        <div id = "title"></i>Search Parameters</div>
+        
+        <div class="form-group1">
+            <label for="searchTerm">Search Term: </label>
+            <input type="text" class="form-control" id="searchTerm" placeholder=" ">
+        </div>
+        <div class="form-group2">
+            <label for="exampleFormControlSelect1">Number of Records to Retrieve: </label>
+            <select class="form-control" id="numRecords">
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+            </select>
+        </div>
+        <div class="form-group3">
+            <label for="startYear">Start Year (Optional): </label>
+            <input type="text" class="form-control" id="startRecords" placeholder=" ">
+        </div>
+        <div class="form-group4">
+            <label for="numRecords">End Year (Optional): </label>
+            <input type="text" class="form-control" id="startRecords" placeholder=" ">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Search</button>
+        <button type="submit" class="btn btn-primary">Clear Results</button>
+
+    </form>
+    <br>
+
+    <div class = "article-container"></div>
+        <div id= "articles">Top Articles</div>
+
+
+
+
+
+</body>
+
+</html>
